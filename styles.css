@@ -1,0 +1,436 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+}
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  background-color: #fff;
+}
+
+/* NavBar Style Start*/
+
+.container .navbar-brand img {
+  width: 20px;
+}
+
+.img-head {
+  font-weight: 700;
+  color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  z-index: 10;
+  top: 0;
+  left: 5%;
+  right: 0;
+  padding: 5px;
+  font-size: 1rem;
+  max-width: 90%;
+}
+
+nav a {
+  text-decoration: none;
+  margin-right: 30px;
+  color: black;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 5%;
+}
+
+#nav-Box {
+  padding: 10px;
+  margin: 3px;
+  border-radius: 50px;
+}
+
+.white-ground {
+  background-color: #e6e7ee;
+}
+
+.blue-ground {
+  background-color: rgb(52, 52, 212);
+  color: #eee;
+}
+/* NavBar Style End */
+
+/* Banner Style Start */
+.banner {
+  padding: 10px 0px;
+  position: relative;
+}
+
+.banner-support-3 {
+  display: flex;
+  align-items: center;
+  max-width: 1100px;
+  justify-content: space-between;
+  margin: 2rem auto -6rem;
+  gap: 2rem;
+}
+
+.banner-img .banner-pos {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.banner::before {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.banner a:hover {
+  text-decoration: none;
+}
+
+.banner-text {
+  padding: 20px;
+}
+
+.banner-text ul {
+  list-style: none;
+}
+
+.banner-text ul li {
+  display: inline-block;
+  margin: 0px 0px 0px 0px;
+}
+.banner-text ul li a {
+  display: block;
+}
+
+.btn {
+  margin-top: 0;
+  display: inline-block;
+  padding: 0.5rem 0.5rem;
+  border: 1px solid black;
+  font-size: 1rem;
+  border-radius: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.trial {
+  margin-right: 1.5px;
+  font-size: 12px;
+  background-color: blue;
+  color: white;
+}
+
+.ai {
+  color: blue;
+  font-size: 12px;
+  padding: 5px 5px;
+}
+
+.user-img img {
+  width: 70%;
+  margin-left: 10px;
+}
+
+.last-img {
+  margin-bottom: 70px;
+  margin-top: 50px;
+  margin-left: 20%;
+  max-width: 60%;
+}
+/* Banner Style End*/
+
+/* Banner Body Info*/
+.banner .clearlink-para {
+  color: blue;
+}
+
+.banner .banner-info h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.banner .banner-info p {
+  font-size: 12px;
+}
+
+.banner-info-body {
+  margin-top: 50px;
+  align-items: center;
+  margin-left: 0;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 5px;
+  max-width: 80%;
+}
+
+@media (max-width: 29rem) {
+  .banner-info-body {
+    font-size: 4rem;
+  }
+}
+
+.banner-body-img {
+  display: grid;
+  grid-template-columns: auto;
+}
+
+.banner-body-zero {
+  margin: 10px 10px 10px 10px;
+}
+
+.banner-body-zero h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.banner-body-zero p {
+  font-size: 15px;
+  max-width: 80%;
+  margin-bottom: 30px;
+}
+
+.banner-body-two {
+  margin: 10px 10px 10px 10px;
+}
+
+.banner-body-two h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.banner-body-two p {
+  font-size: 15px;
+  max-width: 80%;
+  margin-bottom: 30px;
+}
+
+.sub-banner {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 5px;
+  width: 120%;
+}
+
+.sub-banner .info-img {
+  width: 20%;
+  margin-top: 30px;
+}
+
+.sub-banner h2 {
+  font-size: 2rem;
+  max-width: 100%;
+}
+
+.sub-banner-img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.sub-banner-img img {
+  width: 90%;
+  margin-left: 20%;
+}
+
+.shopify-img {
+  margin-bottom: 10%;
+}
+
+.star-img {
+  width: 30%;
+  margin-bottom: 10%;
+}
+
+.attribution {
+  margin-top: 50px;
+}
+/* Banner Body Info End*/
+
+/* Banner Support Start*/
+.banner-support {
+  display: flex;
+  margin-top: 8%;
+}
+.banner-support .body2 {
+  width: 40%;
+  margin-right: 70px;
+}
+
+.banner-support .color {
+  color: blue;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.banner-support-body h3 {
+  font-size: 13px;
+  font-weight: 700;
+  padding: 10px;
+}
+
+.banner-support-body .body3 {
+  padding: 5px;
+  font-size: 13px;
+  background-color: #e6e7ee;
+  border-radius: 10px;
+}
+
+.body3 {
+  width: 75%;
+}
+
+.body3 h2 {
+  font-size: 15px;
+}
+
+.last-banner {
+  display: grid;
+  align-items: center;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5px;
+  margin-top: 8%;
+  width: 90%;
+}
+
+.last-banner-image {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+img {
+  width: 90%;
+}
+
+.check-icon {
+  width: 15px;
+  margin: 3px 3px 3px 3px;
+}
+
+.last-banner .banner-text {
+  font-size: 20px;
+  width: 90%;
+}
+
+.last-banner-text {
+  margin-top: 10px;
+  padding: 5px;
+}
+
+.last-banner .banner-text p {
+  margin: 0;
+}
+
+/* Footer Style Start */
+footer {
+  margin-top: 60px;
+  z-index: 1;
+  position: relative;
+}
+
+.footer-item {
+  display: grid;
+  grid-template-columns: 2fr 2fr;
+  align-items: center;
+  justify-content: space-around;
+  color: #2a2a2a;
+  margin-bottom: 30px;
+}
+
+footer .about .logo img {
+  width: 30px;
+  margin: 5px;
+  font: bold;
+}
+
+footer .about a {
+  color: #afafaf;
+  font-weight: 300;
+}
+
+footer .about ul {
+  margin-top: 20px;
+}
+
+footer .about ul li {
+  display: inline-block !important;
+  margin-right: 5px;
+}
+
+footer .about ul li a {
+  width: 30px;
+  height: 30px;
+  background-color: #03a4ed;
+  color: #fff !important;
+  border-radius: 50%;
+  text-align: center;
+  display: inline-block;
+  line-height: 32px;
+  font-size: 15px;
+}
+
+footer .about ul li a:hover {
+  background-color: #ff695f;
+}
+
+footer .footer-item ul li {
+  display: block;
+  margin-bottom: 12px;
+}
+
+footer .footer-item ul li:last-child {
+  margin-bottom: 0px;
+}
+
+footer .footer-item ul li a {
+  font-size: 12px;
+  color: #afafaf;
+  transition: all 0.3s;
+}
+
+footer .footer-item ul li a:hover {
+  color: #ff695f;
+}
+
+footer .about p {
+  font-size: 12px;
+  color: #afafaf;
+  margin-top: -5px;
+  margin-right: 50px;
+}
+
+footer .copyright p {
+  text-align: center;
+  border-top: 1px solid #eee;
+  color: #afafaf;
+  margin-top: 50px;
+  padding: 20px 0px;
+  font-weight: 300;
+}
+
+footer .copyright p a {
+  color: #ff695f;
+}
+
+.footer-head {
+  color: blue;
+  font-weight: 700;
+}
+
+.about .footer-para {
+  margin-top: 20px;
+  font-weight: 700;
+  color: black;
+}
